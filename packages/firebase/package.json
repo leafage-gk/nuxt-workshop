@@ -1,0 +1,29 @@
+{
+  "name": "@nuxt-workshop/firebase",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --ext .ts src/",
+    "build": "webpack",
+    "serve": "yarn run build && firebase serve --only functions",
+    "shell": "yarn run build && firebase functions:shell",
+    "start": "yarn run shell",
+    "deploy": "firebase deploy",
+    "predeploy": "yarn run build:spa",
+    "build:admin": "lerna run --scope @nuxt-workshop/spa generate",
+    "logs": "firebase functions:log"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "firebase-admin": "^8.2.0",
+    "firebase-functions": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "private": true
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": ["@types/node"],
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "target": "es5",
+    "moduleResolution": "node",
+    "lib": ["esnext", "es6", "es2015.promise"],
+    "sourceMap": true,
+    "strict": true,
+    "declaration": true,
+    "rootDir": "./src",
+    "outDir": "./lib"
+  },
+  "exclude": ["node_modules", "lib"]
+}

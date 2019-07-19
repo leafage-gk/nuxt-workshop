@@ -1,0 +1,31 @@
+{
+  "name": "@nuxt-workshop/spa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev -o",
+    "generate": "cross-env NODE_ENV=development nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt-workshop/model": "^1.0.0",
+    "@nuxtjs/axios": "^5.5.4",
+    "@nuxtjs/moment": "^1.2.0",
+    "@nuxtjs/vuetify": "^0.5.6",
+    "firebase": "^6.3.1",
+    "nuxt": "2.8.1",
+    "vue-typed-mixins": "^0.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "^0.2.1",
+    "cross-env": "^5.2.0",
+    "dotenv": "^8.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "regenerator-runtime": "^0.13.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "ts-node": "^8.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2",
+    "webpack": "^4.36.1"
+  }
+}

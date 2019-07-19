@@ -1,0 +1,19 @@
+{
+  "name": "@nuxt-workshop/model",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "react-native": "lib/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "start": "tsc -w",
+    "prepare": "yarn run clean && tsc"
+  },
+  "dependencies": {
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/validator": "^10.11.1"
+  }
+}

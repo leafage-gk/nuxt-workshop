@@ -1,0 +1,23 @@
+{
+  "editor.renderWhitespace": "all",
+  "eslint.packageManager": "yarn",
+  "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+      "javascript",
+      {
+          "language": "vue",
+          "autoFix": true
+      },
+      {
+          "language": "typescript",
+          "autoFix": true
+      },
+      {
+          "language": "typescriptreact",
+          "autoFix": true
+      }
+  ],
+  "vetur.experimental.templateInterpolationService": true
+}
