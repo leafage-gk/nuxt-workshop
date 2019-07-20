@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <v-container>
-      <div class="name">Aoyama</div>
+      <div class="name">Aoyama Yuta</div>
     </v-container>
   </v-content>
 </template>
