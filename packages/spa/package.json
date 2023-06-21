@@ -12,7 +12,7 @@
     "@nuxtjs/moment": "^1.2.0",
     "@nuxtjs/vuetify": "^0.5.6",
     "firebase": "^6.3.1",
-    "nuxt": "2.8.1",
+    "nuxt": "3.4.3",
     "vue-typed-mixins": "^0.1.0"
   },
   "devDependencies": {
