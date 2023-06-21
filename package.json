@@ -24,7 +24,7 @@
   "author": "kento <kento@leafage.co.jp>",
   "license": "MIT",
   "dependencies": {
-    "nuxt": "^2.8.1",
+    "nuxt": "^3.4.3",
     "vue": "^2.6.10",
     "vuetify": "^1.5.16"
   },
